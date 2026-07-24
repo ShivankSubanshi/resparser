@@ -4,6 +4,12 @@ AI-powered resume screening tool. Paste a job description, upload candidate resu
 
 Built with [Groq](https://groq.com) (`openai/gpt-oss-120b`) for structured extraction and scoring, FastAPI for the backend, and a single-page vanilla HTML/JS frontend.
 
+## Screenshots
+
+| Job description & upload | Ranked results |
+|---|---|
+| ![Job description and resume upload screen](assets/screenshots/upload.png) | ![Ranked candidate results](assets/screenshots/results.png) |
+
 ## Features
 
 - Paste any job description — no hardcoding required.
