@@ -12,11 +12,12 @@ Built with [Groq](https://groq.com) (`openai/gpt-oss-120b`) for structured extra
 
 ## Features
 
-- Paste any job description — no hardcoding required.
-- Drag-and-drop upload for multiple resumes (`.pdf`, `.docx`).
+- Paste any job description — no hardcoding required, with a live character count.
+- Drag-and-drop upload for multiple resumes (`.pdf`, `.docx`), with file chips showing name/size and a remove option per file.
 - Each resume is parsed into structured fields (skills, experience, education, projects, certifications) regardless of section-heading wording.
 - Candidates are scored against the job description and ranked by match percentage.
-- Results UI shows a stat summary, color-coded score badges, and an expandable detail view per candidate (matched skills, missing skills, verdict).
+- Results view shows the detected role, a stat strip (candidates analyzed, top match, average score), rank badges for the top candidates, and color-coded score badges.
+- Each candidate row expands into matched skills, missing skills, and a full verdict.
 - Failed/unreadable files are reported individually instead of breaking the whole batch.
 
 ## Tech stack
